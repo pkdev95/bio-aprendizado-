@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .menu a{
+    display: flex;
+    flex-wrap: wrap;
+    float: right;
+    font-size: 30px;
+    margin: 7px;
+  }
+  .bio-50{
+    background-color: cadetblue;
+    height: 40px;
+  }
+  .bio-50 p{
+    font-size: 19px;
+  }
+  .banner img{
+    width: 17%;
+    height: 17%;
+    
+  }
+ 
+   
+  .banner{
+    display: flex;
+    flex-wrap: wrap;
+    float: right;
+    background-color: cadetblue;
+    
+  }
+
+ .dfc{
+    display: flex;
+    flex-wrap: wrap;
+    display: inline-block;
+  
+ }
+
+ .dfc-1{
+    display: flex;
+    flex-wrap: wrap;
+   
+ }
+
+footer{
+    font-size: 18px;
+    position: fixed;
+    left: 0;
+    bottom:0;
+    width:100%;
+    background-color: cadetblue;
+    text-align: center;
+   
+}
+
+@media screen and (max-width:768px){
+    .banner{
+        margin-bottom: 20px;
+        width:100%;
+    }
+    .dfc{
+        margin-bottom: 20px;
+        width:100%;
+    }
+
+ 
+
+    .menu a{
+        margin-bottom: 20px;
+        width:100%;
+    }
+
+}
+
+
+
+  
+  
+  
+  
