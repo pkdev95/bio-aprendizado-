@@ -20,29 +20,29 @@
   .banner img{
     width: 17%;
     height: 17%;
-    
+
   }
- 
-   
+
+
   .banner{
     display: flex;
     flex-wrap: wrap;
     float: right;
     background-color: cadetblue;
-    
+
   }
 
  .dfc{
     display: flex;
     flex-wrap: wrap;
     display: inline-block;
-  
+
  }
 
  .dfc-1{
     display: flex;
     flex-wrap: wrap;
-   
+
  }
 
 footer{
@@ -53,7 +53,7 @@ footer{
     width:100%;
     background-color: cadetblue;
     text-align: center;
-   
+
 }
 
 @media screen and (max-width:768px){
@@ -66,7 +66,7 @@ footer{
         width:100%;
     }
 
- 
+
 
     .menu a{
         margin-bottom: 20px;
@@ -74,10 +74,3 @@ footer{
     }
 
 }
-
-
-
-  
-  
-  
-  
