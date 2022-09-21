@@ -12,6 +12,7 @@
   }
   .bio-50{
     height: 40px;
+    background-color:#afcdea;
   }
   .bio-50 p{
     font-size: 19px;
@@ -20,12 +21,14 @@
     width: 17%;
     height: 17%;
     border-radius: 65px;
+    background-color:#afcdea;
+
 
   }
 
  body{
-   background-image:url("images.jpg");
-   background-size:cover;
+   background-image:url("corn.jpg");
+   background-size: cover;
 
  }
 
@@ -33,6 +36,7 @@
   .banner{
     display: flex;
     float: right;
+    background-color:#afcdea;
 
   }
 
@@ -54,8 +58,8 @@ footer{
     left: 0;
     bottom:0;
     width:100%;
-    background-color: cadetblue;
     text-align: center;
+    background-color:#afcdea;
 
 }
 
