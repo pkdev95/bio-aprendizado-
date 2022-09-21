@@ -11,7 +11,6 @@
     margin: 7px;
   }
   .bio-50{
-    background-color: cadetblue;
     height: 40px;
   }
   .bio-50 p{
@@ -26,7 +25,6 @@
 
  body{
    background-image:url("images.jpg");
-   background-repeat: no-repeat;
    background-size:cover;
 
  }
@@ -35,7 +33,6 @@
   .banner{
     display: flex;
     float: right;
-    background-color: cadetblue;
 
   }
 
