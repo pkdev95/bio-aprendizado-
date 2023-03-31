@@ -3,6 +3,16 @@
     padding: 0;
     box-sizing: border-box;
   }
+
+  .pt{
+    font-size: 20px;
+    color:black;
+  }
+
+  .pp{
+    margin-left: 1%;
+  }
+
   .menu a{
     display: flex;
     flex-wrap: wrap;
@@ -13,48 +23,38 @@
   .bio-50{
     height: 40px;
     background-color:#afcdea;
+    text-align: center;
   }
   .bio-50 p{
     font-size: 19px;
   }
   .banner img{
-    width: 17%;
-    height: 17%;
-    border-radius: 65px;
-    background-color:#afcdea;
-
-
+    display: block;
+    margin: 0 auto;
+    border-radius:50%;
+    width: 19%;
+    height: 19%;
+    margin-top: 5%;
   }
 
  body{
-   background-image:url("corn.jpg");
+   background-image:url("fundosite.jpg");
    background-size: cover;
-
  }
 
 
   .banner{
-    display: flex;
-    float: right;
-    background-color:#afcdea;
-
+    text-align: center;
   }
 
- .dfc{
-    display: flex;
-    display: inline-block;
-
- }
 
  .dfc-1{
-    display: flex;
-    flex-wrap: wrap;
-
+  display: flex;
+  justify-content: center;
  }
 
 footer{
     font-size: 18px;
-    position: fixed;
     left: 0;
     bottom:0;
     width:100%;
