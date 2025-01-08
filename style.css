@@ -7,19 +7,14 @@
   .pt{
     font-size: 20px;
     color:black;
+    text-align: center;
+   
   }
 
   .pp{
     margin-left: 1%;
   }
 
-  .menu a{
-    display: flex;
-    flex-wrap: wrap;
-    float: right;
-    font-size: 30px;
-    margin: 7px;
-  }
   .bio-50{
     height: 40px;
     background-color:#afcdea;
@@ -28,13 +23,16 @@
   .bio-50 p{
     font-size: 19px;
   }
-  .banner img{
-    display: block;
-    margin: 0 auto;
+
+  img{
     border-radius:50%;
     width: 19%;
     height: 19%;
     margin-top: 5%;
+  }
+
+  .perfil{
+    text-align: center;
   }
 
  body{
@@ -81,6 +79,12 @@ footer{
         margin-bottom: 20px;
         width:100%;
         flex-wrap:wrap;
+    }
+
+
+    .perfil{
+      height: 50%;
+      margin-top: 19%;
     }
 
 }
